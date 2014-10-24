@@ -1,0 +1,307 @@
+/* NEW*/
+
+* {
+	margin:0;
+	padding:0;	 
+	font-family: "Roboto Condensed",arial,sans-serif;
+	list-style: none;
+}
+
+img{border:0;}a {outline : none;}
+a img {outline : none;}
+img {border : 0;}
+
+html,body {
+	width: 100%;
+	height: 100%; 
+	margin:0;
+	padding:0;	
+	overflow: hidden;
+	overflow-x:hidden;
+	overflow-y:hidden;  		
+	background-image: url("http://d2zmgde9txxwg2.cloudfront.net/images/homepage/d.jpg");
+	background-size:cover;
+	background-repeat: no-repeat!important;
+ 	background-position: center;  
+}
+
+
+ 
+@media all and (max-width: 600px)  {	
+	html,body {
+		background-image: url("http://d2zmgde9txxwg2.cloudfront.net/images/homepage/m.jpg");
+		background-size:cover!important;
+	 	background-position: center; 
+	 	width:100%!important;
+	 	height: 100%!important;
+	 	background-repeat: no-repeat!important;
+	}
+
+}
+
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+ 
+ 	
+	}
+	#nav li{
+		float: left!important;
+	}
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
+  nav {
+  	display: none;
+  }
+ }
+
+
+#content ul:first-child{
+ 	top:102px;
+ 	position: relative;
+}
+
+#overlay img {
+	position:absolute;	
+	z-index:99999999999999999;
+	padding: 10px 20px;
+}
+ 
+#nav {
+	top: 95px;
+	position: relative;
+	left: 25px;
+}
+
+#nav li {
+	margin-top:6px;	
+	color:white;
+	padding-right: 10px;
+}
+
+#nav li {
+	cursor: pointer;
+	z-index: 999999999999999998999999999999999;
+	font-size: 19px!important;
+	position: relative;
+}
+#nav li a {
+ text-decoration: none;
+}
+#nav li a:hover {
+	text-decoration: none; 
+}
+
+#sm {
+    position: relative;
+    top: 68px;
+    width: 267px; 
+    position:absolute;	
+	left:0;
+	color:white;
+	z-index:99999999999999999;   
+ }
+
+ #sm li{ 
+    float: left;
+    padding-left: 26px;
+	cursor:pointer;
+
+ }
+
+ #sm li a:hover {
+ 	color:#00AEEF !important;
+ }
+
+ i {
+ 	font-size: 21px;color:white;
+ }
+ 
+
+a:hover,i:hover {
+	color:black!important;
+}
+
+@media screen and (min-width: 600px) { 
+	* {color:white!important;}
+	.mob {display: none;}
+	.desk {display: block;}
+
+ }
+@media screen and (max-width: 600px) { 
+
+	.mob {display: block;}
+	.desk {display: none;}
+
+	#overlay {
+		position:absolute;
+		width:320px;
+		height: 129px;
+		border-radius:0  31px  0 0 !important;
+		left:0;
+		bottom:0;
+		bottom:0!important; 
+		background:rgba(0,0,0,0.7) ;  
+		z-index: 999999999999999;
+		top:none;
+	}
+	#nav li {
+		float: left!important;
+		font-size: 18.5px !important;
+	}
+
+}
+ 
+
+@media only screen and (min-device-width : 600px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 1)  {	
+	#bg {
+		background-image: url("http://d2zmgde9txxwg2.cloudfront.net/images/homepage/d.jpg");
+		background-size:cover;
+	 	background-position: center; 
+	 	width:100%!important;
+	 	height: 100%!important;
+	}
+
+}
+
+@media only screen and (device-width : 320px) and (-webkit-min-device-pixel-ratio: 1)  {	
+ 
+	#overlay {
+		position:absolute;
+		width:295px;
+		height: 129px;
+		border-radius:0 31px 0  0!important;
+		left:0;
+		bottom:0!important;
+		background:rgba(0,0,0,0.7) ;  
+		z-index: 999999999999999;
+		top:none;
+	}
+ 	nav {
+ 		display: none;
+ 	}
+}
+
+
+
+
+
+/* Non-Retina */
+@media screen and (-webkit-max-device-pixel-ratio: 1) {
+	#overlay {
+		bottom:0!important;
+	}
+}
+
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+	#overlay {
+		bottom:0!important;
+	}
+}
+
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+	#overlay {
+		bottom:0!important;
+	}
+ 
+} 
+ 
+
+/* iPhone Landscape */
+@media screen and (max-device-width: 480px) and (orientation:landscape) {
+	#overlay {
+		bottom:0!important;
+	}
+}
+
+/* iPad Portrait */
+
+@media screen and (min-device-width: 481px) and (orientation:portrait) {
+	#overlay {
+		bottom:0!important;
+	}	
+}
+
+/* iPad Landscape */
+@media screen and (min-device-width: 481px) and (orientation:landscape) {
+	#overlay {
+		bottom:0!important;
+	}
+}
+
+ nav {
+    position: absolute;
+    right: 5%;
+    top: 45%;
+    padding: 20px;
+    background: none repeat scroll 0% 0% #000;
+    border-radius: 40px;
+    opacity: 0.4;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+
+
+
+
+
+
+
+.splashWrapper { 
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	position: absolute;
+}
+
+
+
+
+@media all and (max-width: 800px)  {
+
+	#bg {
+		width:100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		background-image: url('http://www.incipio.com/images/homepage/d.jpg');
+		z-index: 9999999999;
+	}
+	video {
+		display: none!important;
+	}
+}
+
+@media screen and (min-width: 800px) {
+
+	#bg {
+		display: none!important;
+	}
+}
+
+
+
+.std ul { 
+    margin-bottom: !important;
+}
+
+
+
+   video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+  }
+
+.std ul {
+    list-style: disc outside none;
+    margin-bottom: 0!important;
+}
